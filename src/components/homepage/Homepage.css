@@ -1,0 +1,20 @@
+/* Homepage.css */
+.homepage-container {
+  position: relative;
+}
+
+.map-container {
+  position: relative;
+}
+
+.popup-message {
+  position: absolute; /* Set position to absolute */
+  top: 90%; /* Adjust positioning to be 10% from the top */
+  left: 50%; /* Center horizontally over the map */
+  transform: translate(-50%, 0); /* Center the popup message horizontally */
+  background-color: red; /* Adjust background color */
+  padding: 8px; /* Adjust padding */
+  border-radius: 5px; /* Adjust border radius */
+  z-index: 2; /* Ensure the message appears above the map */
+  font-size: 14px; /* Adjust font size */
+}

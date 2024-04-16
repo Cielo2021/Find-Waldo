@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #F5F5DC;
+  padding: 30px 60px; /* Increase padding for a bigger navbar */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.title {
+  color: red; /* Red letters for the title */
+  margin: 0;
+  font-size: 40px; /* Increase font size */
+}
+
+.waldo-image {
+  width: 60px; /* Adjust the size of the Waldo image */
+  height: auto;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between; /* Arrange items with space between */
+  align-items: center;
+  margin-top: 10px; /* Adjust margin-top as needed */
+}
+
+.bottom-section p {
+  margin-right: 5px; /* Add space between text and icon */
+}
+
+.bottom-section a {
+  color: #000; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.bottom-section a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.bottom-section button {
+  margin-right: 15px; /* Add margin to the right of the button */
+  background-color: red; /* Set button background color to red */
+  color: black; /* Set button text color to black */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius to the button */
+}
+
+.start-game-container {
+  display: flex;
+  align-items: center;
+}
+
+.start-game-container button:hover {
+  background-color: darkred; /* Darken the background color on hover */
+}
+

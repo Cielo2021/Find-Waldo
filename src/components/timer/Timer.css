@@ -1,0 +1,24 @@
+.timer {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: red; /* Set the background color to red */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add pointer cursor to make it look clickable */
+  outline: none; /* Remove outline when clicked */
+  transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.timer:hover {
+  background-color: darkred; /* Darken the background color on hover */
+}
+
+.timer:active {
+  background-color: firebrick; /* Further darken the background color when clicked */
+}
