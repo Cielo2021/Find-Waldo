@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Find-Waldo/static/css/main.b66a2503.css",
+    "main.js": "/Find-Waldo/static/js/main.4e3c3064.js",
+    "static/media/map.jpg": "/Find-Waldo/static/media/map.1d3a421bc5e73c11fa35.jpg",
+    "static/media/waldo.png": "/Find-Waldo/static/media/waldo.07f1d4df4744995a2ba2.png",
+    "index.html": "/Find-Waldo/index.html",
+    "main.b66a2503.css.map": "/Find-Waldo/static/css/main.b66a2503.css.map",
+    "main.4e3c3064.js.map": "/Find-Waldo/static/js/main.4e3c3064.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b66a2503.css",
+    "static/js/main.4e3c3064.js"
+  ]
+}
